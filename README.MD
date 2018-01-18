@@ -45,5 +45,5 @@
 - If it has a Node back end, run `nodemon` from the project folder. 
     #### Notes and troubleshooting
     - When you simply run `nodemon` with nothing else in the command, it assumes your server file is named `index.js` and that it is located at the top of your project folder (in the same folder where you ran `nodemon`). 
-    - If your server file is named something else or is located in a folder (like a `server` folder), you will have to add a path to the `nodemon` command, something like `nodemon server/index.js`. This tells nodemon where the file is. Alternatively, you could write `"main": "server/index.js",` to your `package.json` file so you can simply run `nodemon` and it will always know where your file is.
+    - If your server file is named something else or is located in a folder (like a `server` folder), you will have to add a path to the `nodemon` command, something like `nodemon server/index.js`. This tells nodemon where the file is. Alternatively, you could edit your `package.json` to have a property like `"main": "server/index.js",` so you can simply run `nodemon` and it will always know where your file is.
     - If you get errors in the console saying it "cannot resolve" the path to your index.js file, you are probably not running `nodemon` from the right folder or you need to give `nodemon` the path to your server file.
