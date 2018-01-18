@@ -37,7 +37,7 @@
                 1. Run `git remote add origin [your-repo-URL]` to connect your local folder to the correct repo on your GitHub account.
     1. #### Commit changes to your code.
         1. Run `git add [file names or .]` and `git commit -m "commit message"` to add and commit changes.
-        1. Run `git push -u origin master` to push commited changes. Normally, you just need `git push`, but your first push needs to specify which branch on GitHub you are pushing your local branch to. If you forget this commit and simply run `git push`, the console will simply remind you what command to run.
+        1. Run `git push -u origin master` to push commited changes. Normally, you just need `git push`, but your first push needs to specify which branch on GitHub you are pushing your local branch to. If you forget this commit and just run `git push` like normal, the console will simply remind you what command git needs you to run.
 
 
 ## Start project
