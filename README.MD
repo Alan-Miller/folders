@@ -35,7 +35,7 @@
             - You will notice that when you do not click the checkbox for a README, the next page shows a list of commands you can use to connect your local files to the new repo you made. Here are some recommended steps:
                 1. Run `git init` inside the project folder. This tells git that your local folder is a repository. It stores a hidden folder called `.git` in your project folder. (If you ever have to undo `git init`, you can just delete this hidden folder.) 
                 1. Run `git remote add origin [your-repo-URL]` to connect your local folder to the correct repo on your GitHub account.
-    1. #### Commit changes to your code.
+    1. #### Commit and push changes to your code.
         1. Run `git add [file names or .]` and `git commit -m "commit message"` to add and commit changes.
         1. Run `git push -u origin master` to push commited changes. Normally, you just need `git push`, but your first push needs to specify which branch on GitHub you are pushing your local branch to. If you forget this commit and just run `git push` like normal, the console will simply remind you what command git needs you to run.
 
